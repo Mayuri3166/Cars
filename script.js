@@ -105,14 +105,16 @@ cursorEffect()
 // })
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
+    centeredSlides: true,
     spaceBetween: 30,
     duration:0.5,
     loop: true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: true,
-      },
+    }
   });
+
 //asynchronous code la syncronous karta pratekacha time manage karta jyamul webpage chan chalta
  var tl= gsap.timeline()
  
